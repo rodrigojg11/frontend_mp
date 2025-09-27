@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="" id="form">
+    <div>
+      <label>Title:</label>
+      <input type="text" id="title">
+    </div>
+    <div>
+      <label>Price:</label>
+      <input type="number" min="0" id="price">
+    </div>
+    <div>
+      <label>Category:</label>
+      <select name="category_id" id="categories" required></select>
+    </div>
+    <div>
+      <label>Published:</label>
+      <input type="radio" name="radio" id="published"  value="true">Si
+      <input type="radio" name="radio" value="false">No
+    </div>
+    <div>
+      <input type="submit" value="Crear">
+    </div>
+  </form>
+  <div id="message"></div>
+  <script src="new_product.js"> </script>
+</body>
+</html>
