@@ -1,0 +1,14 @@
+const search = document.getElementById('search')
+const form = document.getElementById('form')
+
+form.addEventListener('submit', (e) => {
+
+  e.preventDefault()
+
+
+  fetch(`http://127.0.0.1:3000/api/v1/search?query=${search.value}`)
+    .then(response => response.json())
+    .then((data) => {
+      console.log(data)
+    })
+})
