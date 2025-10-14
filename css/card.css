@@ -1,0 +1,60 @@
+.products_card {
+  background-color: rgb(3, 3, 3);
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px, rgba(0, 0, 0, 1);
+  text-align: center;
+  padding: 20px;
+}
+
+.products_card img{
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.products_card  h3 {
+  width: 10px 0;
+  color: rgba(249, 247, 247, 0.989);
+}
+
+.products_card p {
+  color: rgb(247, 244, 244);
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.products_card .price {
+  font-weight: bold;
+  color: rgb(245, 242, 242);
+  font-size: 16px;
+  padding: 5px;
+}
+
+.products_card button {
+  background-color: rgb(237, 136, 4);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.products_card button:hover {
+  background-color: rgb(246, 245, 245);
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  padding: 5px 5px;
+}
+
+.imagen .zoom {
+  position: absolute;
+  top: 500px;
+}

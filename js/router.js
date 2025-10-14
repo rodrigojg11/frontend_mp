@@ -1,7 +1,8 @@
 const routes = {
   "#/home": "views/home.html",
   "#/login": "views/login.html",
-  "#products": "views/products.html",
+  "#/products": "views/products.html",
+  "#/product": "views/product.html",
   "#/profile": "views/profile.html",
   "#/register": "views/register.html",
   "#/cart": "views/cart.html"
